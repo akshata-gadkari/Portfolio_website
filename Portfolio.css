@@ -1,0 +1,138 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    font-family: Arial, sans-serif;
+}
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background: #1c1c1e;
+    color: white;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: 500;
+    /* display: block; */
+}
+.sidebar a:hover {
+    color: #0d6efd;
+}
+.social-icons a {
+    font-size: 20px;
+    color: white;
+    /* display: block; */
+    margin: 10px 0;
+}
+
+
+
+/* ================= MAIN CONTENT ================= */
+.main-content {
+    margin-left: 300px;  
+    width: calc(100% - 250px);
+}
+
+/* HERO SECTION */
+.hero-section {
+    background: url("bg_image.avif") center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+
+@media (max-width: 992px) {
+
+    .sidebar {
+        width: 200px;
+        height: 100vh;
+        position: fixed;
+        /* text-align: center; */
+    }
+
+    .main-content {
+        margin-left: 200px;
+       
+    }
+    .profile-img{
+        width: 90px;
+        height: 90px;
+    }
+    .sidebar h4{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        width: 80px;
+        /* height: 100vh; */
+        position: fixed;
+        padding: 10px 5px;
+    }
+
+    .main-content {
+        margin-left: 80px;
+      
+    }
+
+    .sidebar h4,
+    .sidebar p,
+    .sidebar hr,
+    .sidebar .nav-link span{
+        display: none;
+    }
+
+    .sidebar .nav-link{
+        text-align: center;
+        padding: 12px 0;
+    }
+    .sidebar i{
+        font-size: 22px;
+        /* display: block;
+        margin: 15px auto; */
+    }
+
+    .profile-img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+}
+
+

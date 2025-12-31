@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshata Gadkari | Portfolio</title>
+<link rel="stylesheet" href="Portfolio.css">
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+    }
+    html {
+  scroll-behavior: smooth;
+}
+
+
+#certificates .card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+}
+
+
+    /* Sidebar */
+    .sidebar {
+      width: 260px;
+      min-height: 100vh;
+      position: fixed;
+      background: #111;
+      color: #fff;
+    }
+
+    .sidebar a {
+      font-weight: 500;
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      color: #0d6efd;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      
+      
+    }
+
+    .main-content {
+      margin-left: 260px;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      transition: 0.3s;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+    }
+
+    
+    .skill-box {
+  background: #fff;
+  padding: 25px 10px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.skill-box i {
+  font-size: 36px;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.skill-box h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.skill-box:hover {
+  transform: translateY(-8px);
+}
+
+  </style>
+</head>
+
+<body>
+
+<!-- ================= SIDEBAR ================= -->
+<div class="sidebar p-3 text-center">
+  <img src="img_profile.jpg" class="profile-img mb-3" alt="Profile" />
+  <h4>Akshata Gadkari</h4>
+  <p class="text-muted">Front-End Developer</p>
+
+  <div class="mb-3">
+    <a href="#"><i class="fa fa-github mx-2"></i></a>
+      <a href="https://www.linkedin.com/in/akshata-gadkari-3a67871bb" target="_blank" title="LinkedIn">
+    <i class="fa fa-linkedin mx-2"></i>
+  </a>
+    <a href="#"><i class="fa fa-instagram mx-2"></i></a>
+  </div>
+
+  <hr />
+
+  <ul class="nav flex-column text-start">
+    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+  </ul>
+</div>
+
+<!-- ================= MAIN CONTENT ================= -->
+<div class="main-content">
+
+  <!-- HOME -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Akshata Gadkari</h1>
+            <p class="lead">I'm a <span class="typing-text">Web Developer</span></p>
+        </div>
+    </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="fw-bold mb-4">About Me</h2>
+      <div class="row">
+        <div class="col-md-8">
+             <p>
+I am a <strong>Front-End Developer</strong> with <strong>2.5 years of professional experience</strong> in building
+responsive, scalable, and user-friendly web applications.
+I have hands-on experience working with <strong>HTML, CSS, JavaScript, Vue.js, and Bootstrap</strong>.
+</p>
+
+<p>
+I have worked on enterprise-level applications, UI migration projects, and ENOVIA widgets,
+focusing on clean UI design, performance, and usability.
+I enjoy converting complex requirements into simple and elegant user interfaces.
+</p>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item">Experience: 2.5 Years</li>
+            <li class="list-group-item">Frontend: HTML, CSS, JS</li>
+            <li class="list-group-item">Framework: Vue.js</li>
+            <li class="list-group-item">UI: Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+ 
+
+  </section>
+  <!-- SKILLS -->
+<section id="skills" class="section bg-light">
+  <div class="container">
+    <h2 class="fw-bold text-center mb-5">Skills</h2>
+
+    <div class="row text-center g-4">
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-html5"></i>
+          <h6>HTML5</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-css3"></i>
+          <h6>CSS3</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-code"></i>
+          <h6>JavaScript</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-desktop"></i>
+          <h6>Vue.js</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-bold"></i>
+          <h6>Bootstrap</h6>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6">
+        <div class="skill-box">
+          <i class="fa fa-mobile"></i>
+          <h6>Responsive UI</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- certificates -->
+ <section id="certificates" class="section bg-light"> <div class="container"> <h2 class="fw-bold text-center mb-5">Certificates</h2> <div class="row g-4"> <!-- Certificate 1 --> <div class="col-lg-4 col-md-6"> <div class="card h-100 shadow-sm text-center"> <div class="card-body"> <i class="fa fa-certificate fa-3x text-primary mb-3"></i> <h5 class="fw-bold">Vue.js Certification</h5> <p class="text-muted">Udemy</p> </div> </div> </div> <!-- Certificate 2 --> <div class="col-lg-4 col-md-6"> <div class="card h-100 shadow-sm text-center"> <div class="card-body"> <i class="fa fa-certificate fa-3x text-primary mb-3"></i> <h5 class="fw-bold">React.js Certification</h5> <p class="text-muted">Udemy</p> </div> </div> </div> <!-- Certificate 3 --> <div class="col-lg-4 col-md-6"> <div class="card h-100 shadow-sm text-center"> <div class="card-body"> <i class="fa fa-certificate fa-3x text-primary mb-3"></i> <h5 class="fw-bold">Web Development Certification</h5> <p class="text-muted">SevenMentor Pvt. Ltd., Pune</p> </div> </div> </div> </div> </div> </section>
+
+  <!-- RESUME -->
+  <section id="resume" class="section bg-light">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Resume</h2>
+      <h5 class="fw-bold">Brainwave Consulting</h5>
+      <p class="text-muted">Software Developer | 2022 – 2024</p>
+      <ul>
+        <li>Developed enterprise-level Vue.js applications</li>
+        <li>Created ENOVIA widgets and dashboards</li>
+        <li>Built responsive UI using Bootstrap</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Projects</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="fw-bold">e-Gain</h5>
+              <p>AngularJS to Vue.js Migration</p>
+              <p><strong>Tech:</strong> HTML, CSS, JS, Vue.js</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="fw-bold">YOHT (ENOVIA)</h5>
+              <p>Interactive 3D Widget Development</p>
+              <p><strong>Tech:</strong> Vue.js, JavaScript, ENOVIA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card h-100 shadow-sm">
+  <div class="card-body">
+    <h5 class="fw-bold">Digital Literacy for Seniors</h5>
+    <p>
+      A responsive educational website designed to help senior citizens
+      learn basic digital skills in a simple and accessible way.
+    </p>
+    <p><strong>Tech:</strong> HTML, CSS, Bootstrap</p>
+    <p><strong>Role:</strong> Front-End Developer</p>
+
+    <a href="#" class="btn btn-outline-primary btn-sm">GitHub</a>
+    <a href="#" class="btn btn-outline-secondary btn-sm">Live Demo</a>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Contact us</h2>
+      <p>Email: akshatagadkari7@gmail.com</p>
+      <p>Phone: +91 8778345668</p>
+      <p>Location: Pune, India</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center">
+    <p class="mb-0">© 2025 Akshata Gadkari. All Rights Reserved.</p>
+  </footer>
+
+</div>
+<script src="Portfolio.js"></script>
+</body>
+</html>
